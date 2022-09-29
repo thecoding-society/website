@@ -4102,3 +4102,10 @@ img.u-pull-left {
         line-height : var(--vspace-0_5);
     }
 }
+
+
+/* manually added -laavesh */
+
+.tcs-email{
+    color:white;
+}
