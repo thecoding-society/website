@@ -12,6 +12,10 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
+window.onload = function(){
+    var button = document.getElementById('popup-button').click();
+}
+
 // smooth scroll
 $(document).ready(function(){
     $(".navbar .nav-link").on('click', function(event) {
