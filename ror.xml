@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://coding.psdc.org.in/</title>
+  <link>http://coding.psdc.org.in/</link>
+
+<item>
+     <link>https://coding.psdc.org.in/</link>
+     <title>The Coding Society</title>
+     <description>The offical programming club of Panimalar Student Development Community.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://coding.psdc.org.in/index.html</link>
+     <title>The Coding Society</title>
+     <description>The offical programming club of Panimalar Student Development Community.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://coding.psdc.org.in/gallery.html</link>
+     <title>The Coding Society</title>
+     <description>The offical programming club of Panimalar Student Development Community.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://coding.psdc.org.in/shortlisted.html</link>
+     <title>The Coding Society</title>
+     <description>Start your development with LeadMark landing page.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

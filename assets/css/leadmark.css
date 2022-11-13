@@ -11748,3 +11748,9 @@ textarea.form-control {
   opacity: 1;
   visibility: visible;
 }
+
+
+/* added manually */
+.spacing{
+  margin-top: 50px;
+}
