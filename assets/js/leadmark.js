@@ -1,20 +1,11 @@
-/*!
-=========================================================
-* LeadMark Landing page
-=========================================================
 
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
 
-=========================================================
 
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 
-window.onload = function(){
-    var button = document.getElementById('popup-button').click();
-}
+// Popup
+// window.onload = function(){
+//     var button = document.getElementById('popup-button').click();
+// }
 
 // smooth scroll
 $(document).ready(function(){

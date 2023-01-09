@@ -33,9 +33,20 @@
     <!-- Bootstrap + LeadMark main styles -->
 	<link rel="stylesheet" href="assets/css/styles.css">
 
-    <!-- Image Optimization -->
+    <!-- Preloader -->
     <script>
         
+        window.addEventListener('load', function () {
+            console.log('All assets are loaded');
+            // Set preloader to fade out
+            document.getElementsByClassName('preloader')[0].style.display = 'none';
+
+            // Set content to visible
+            document.getElementsByClassName('content')[0].style.display = 'block';
+            
+        });
+
+
     </script>
 
 
@@ -43,290 +54,309 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-    <!-- page Navigation Navbar -->
-    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="-1">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets\imgs\logos\black.png" alt="The Coding Society Logo">
-            </a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- End Of Second Navigation -->
-
-    <!-- Spacing -->
-    <div class="spacing">
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__ball"></div>
+          </div>
     </div>
-    <!-- End Of Spacing -->
+    <!-- End Of Preloader -->
 
-    <!-- Gallery Section -->
-    <section id="portfolio" class="section portfolio-section">
-        <div class="container">
-            <h6 class="section-title text-center">Gallery</h6>
-            <h6 class="section-subtitle mb-5 text-center">Images from our events</h6>
 
-            <div class="filters">
-                <a href="#" data-filter=".new" class="active">
-                    New
+    <!-- Start Of Main Content -->
+    <div class="content">
+        <!-- page Navigation Navbar -->
+        <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="-1">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets\imgs\logos\black.png" alt="The Coding Society Logo">
                 </a>
-                <a href="#" data-filter=".quiz">
-                    Quiz
-                </a>
-                <a href="#" data-filter=".bootcamp">
-                    Bootcamp
-                </a>
-                <a href="#" data-filter=".inaugration">
-                    Inaugration
-                </a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        
+                    </ul>
+                </div>
             </div>
+        </nav>
+        <!-- End Of Second Navigation -->
 
-            <div class="portfolio-container">
-
-                <!-- Quiz -->
-                <div class="col-md-6 col-lg-4 quiz ">
-                    <div class="portfolio-item" >
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_132108.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 quiz ">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_132509.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 quiz new">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_132511.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 quiz ">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_133509.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 quiz new">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_134839.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 quiz new">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_134843.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 quiz new">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_134850.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 quiz">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_142534.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 quiz new">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_145205.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 quiz new">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_132007.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <!-- End of Quiz -->
-                
-
-                <!-- BOOTCAMP WEB DEVELOPMENT -->
-
-                <div class="col-md-6 col-lg-4 bootcamp">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/bootcamp/3.jpg" class="img-fluid" alt="">
-                        
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 new bootcamp">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/bootcamp/4.jpg" class="img-fluid" alt="">
-                        
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 new bootcamp">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/bootcamp/7.jpg" class="img-fluid" alt="">
-                        
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 new bootcamp">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/bootcamp/6.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4  bootcamp">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/bootcamp/1.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-
-                <!-- End of BOOTCAMP WEB DEVELOPMENT -->
-
-                <!-- INAUGRATION -->
-
-                <div class="col-md-6 col-lg-4 inaugration">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/inaug/1.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4  inaugration">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/inaug/2.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 inaugration">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/inaug/3.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 inaugration">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/inaug/4.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 inaugration">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/inaug/5.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 inaugration">
-                    <div class="portfolio-item">
-                        <img src="https://ik.imagekit.io/codingsociety/website/gallery/inaug/6.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
-
-                <!-- End of INAUGRATION -->
-
-                <!-- <div class="col-md-6 col-lg-4 web new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="">
-                    <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">WEB</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 advertising new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="">
-                    <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">ADVERSITING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 advertising new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">ADVERTISING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-md-6 col-lg-4 branding new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 branding">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 branding new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 branding">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 branding">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+        <!-- Spacing -->
+        <div class="spacing">
         </div>
-    </section>
-    <!-- End of Gallery section -->
+        <!-- End Of Spacing -->
+
+        <!-- Gallery Section -->
+        <section id="portfolio" class="section portfolio-section">
+            <div class="container">
+                <h6 class="section-title text-center">Gallery</h6>
+                <h6 class="section-subtitle mb-5 text-center">Images from our events</h6>
+
+                <div class="filters">
+                    <a href="#" data-filter=".new" class="active">
+                        New
+                    </a>
+                    <a href="#" data-filter=".quiz">
+                        Quiz
+                    </a>
+                    <a href="#" data-filter=".bootcamp">
+                        Bootcamp
+                    </a>
+                    <a href="#" data-filter=".inaugration">
+                        Inaugration
+                    </a>
+                </div>
+
+                <div class="portfolio-container">
+
+                    <!-- Quiz -->
+                    <div class="col-md-6 col-lg-4 quiz ">
+                        <div class="portfolio-item" >
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_132108.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 quiz ">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_132509.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 quiz new">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_132511.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 quiz ">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_133509.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 quiz new">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_134839.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 quiz new">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_134843.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 quiz new">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_134850.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 quiz">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_142534.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 quiz new">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_145205.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 quiz new">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/quiz/20221118_132007.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <!-- End of Quiz -->
+                    
+
+                    <!-- BOOTCAMP WEB DEVELOPMENT -->
+
+                    <div class="col-md-6 col-lg-4 bootcamp">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/bootcamp/3.jpg" class="img-fluid" alt="">
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 new bootcamp">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/bootcamp/4.jpg" class="img-fluid" alt="">
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 new bootcamp">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/bootcamp/7.jpg" class="img-fluid" alt="">
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 new bootcamp">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/bootcamp/6.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4  bootcamp">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/bootcamp/1.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <!-- End of BOOTCAMP WEB DEVELOPMENT -->
+
+                    <!-- INAUGRATION -->
+
+                    <div class="col-md-6 col-lg-4 inaugration">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/inaug/1.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4  inaugration">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/inaug/2.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 inaugration">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/inaug/3.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 inaugration">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/inaug/4.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 inaugration">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/inaug/5.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 inaugration">
+                        <div class="portfolio-item">
+                            <img src="https://ik.imagekit.io/codingsociety/website/gallery/inaug/6.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <!-- End of INAUGRATION -->
+
+                    <!-- <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="">
+                        <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">WEB</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="">
+                        <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ADVERSITING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ADVERTISING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <!-- End of Gallery section -->
+    </div>
+    <!-- End of Main Content -->
+    
 
 
 
