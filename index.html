@@ -41,11 +41,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
     <!-- Pop up Scripts -->
-    <!-- <script>
+    <script>
         window.onload = function(){
         var button = document.getElementById('popup-button').click();
         }
-    </script> -->
+    </script>
 
 
 </head>
@@ -101,27 +101,37 @@
     <!-- End Of Page Header -->
 
     <!-- Pop up (uncomment in script section above also) -->
-    <!-- <button id="popup-button" style="display: none;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    <button id="popup-button" style="display: none;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
         Error!!
     </button>
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
+                <!-- Heading -->
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Quiz Competition Postponed</h5>
+                    <!-- Title -->
+                    <h5 class="modal-title" id="exampleModalLabel">Programming Contest Registration</h5>
+
+                    <!-- Close button -->
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
+
+                <!-- Body -->
                 <div class="modal-body">
-                    Quiz Competition has been postponed. We will update you soon on the postponed date.
+                    To Register for the Programming Contest: <br>
+                    - Create an hackerrank account.  <br>
+                    - Register using the link given in the Events section. <br>
                 </div>
+
+                    <!-- Close button -->
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- End of Pop Up -->
 
     <!-- Vision Section -->
@@ -204,18 +214,42 @@
 
             <div class="row">
 		    
-		<!-- TedX-->
-		<div class="col-md-4">
+                <!-- Progamming Contest -->
+                <div class="col-md-4">
                     <div class="card border-0 mb-4">
-                        <img src="https://ik.imagekit.io/codingsociety/website/event_posters/tedx.png" alt="" class="card-img-top w-100">
+                        <img src="https://ik.imagekit.io/codingsociety/website/event_posters/programmingcontest.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676210860733" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h6 class="card-title">Progamming Contest</h6>
+                            <p>
+                                We are hosting a programming contest for coders to showcase their skills, solve problems, 
+                                and compete against your peers. Get ready to be challenged and motivated!<br><br>
+                               	Platform: <a href="https://hackerrank.com">HackerRank</a><br>
+                                Kindly create an account on the platform before the event.
+                                <br><br>
+                                Registration Link: <a href="form.html">Click here</a>
+
+                            </p>
+				
+                            <p class="small text-muted">
+                                3rd Year &nbsp;&nbsp;->  March 14, 2023 <br>
+                                2nd Year &nbsp;&nbsp;->  TBD <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TedX-->
+                <div class="col-md-4">
+                    <div class="card border-0 mb-4">
+                        <img src="https://ik.imagekit.io/codingsociety/website/event_posters/tedx.jpg" alt="" class="card-img-top w-100">
                         <div class="card-body">
                             <h6 class="card-title">TED Talk</h6>
                             <p>
-                                A TED talk event organised by Panimalar Engineering College bringing in speakers from various educational and industrial backgrouds. <br>
+                                A TED talk event organised by Panimalar Engineering College bringing in speakers from various educational and industrial backgrouds. <br> <br>
                                	<a href="https://www.ted.com/tedx/events/53018">View event website</a>
                             </p>
 				
-                            <a href="javascript:void(0)" class="small text-muted">April 10, 2023</a>
+                            <p class="small text-muted">Tentative: April 10, 2023</p>
                         </div>
                     </div>
                 </div>
@@ -232,7 +266,7 @@
                                 Subulakshmi (III-A)<br>
                                 Mahalakshmi (III-A)<br>
                             </p>
-                            <a href="javascript:void(0)" class="small text-muted">November 18, 2022</a>
+                            <p class="small text-muted">November 18, 2022</p>
                         </div>
                     </div>
                 </div>
@@ -243,7 +277,7 @@
                         <div class="card-body">
                             <h6 class="card-title">Web Devleopment Bootcamp</h6>
                             <p>Bootcamp on Web Development 1.0 and an introduction to Internet.</p>
-                            <a href="javascript:void(0)" class="small text-muted">October 19, 2022</a>
+                            <p class="small text-muted">October 19, 2022</p>
                         </div>
                     </div>
                 </div>
@@ -256,7 +290,7 @@
                             <p>
                                 An interactive guest lecture by Mr. Udayakumar R on the world of Computer Science and technologies.
                             </p>
-                            <a href="javascript:void(0)" class="small text-muted">September 30, 2022</a>
+                            <p class="small text-muted">September 30, 2022</p>
                         </div>
                     </div>
                 </div>
@@ -355,7 +389,7 @@
 
                     <h6 class="mb-0" style="line-height:2rem;">Team</h6>
                     <p class="mb-4" style="line-height:1.8rem;">
-                        Lead &nbsp &nbsp &nbsp &nbsp &nbspSakthi Arun <a href="https://www.linkedin.com/in/sakthi-arun-p-813967219/"> <img src="https://ik.imagekit.io/codingsociety/website/logos/icon-linkedin.png" alt="" class="rounded-circle" width="25px" height="25px"></a>
+                        Lead &nbsp &nbsp &nbsp &nbsp &nbspSakthi Arun P<a href="https://www.linkedin.com/in/sakthi-arun-p-813967219/"> <img src="https://ik.imagekit.io/codingsociety/website/logos/icon-linkedin.png" alt="" class="rounded-circle" width="25px" height="25px"></a>
                         <br>
                         Co Lead &nbsp Laaveshwaran Parthiban <a href="https://www.linkedin.com/in/laavesh/"> <img src="https://ik.imagekit.io/codingsociety/website/logos/icon-linkedin.png" alt="" class="rounded-circle" width="25px" height="25px"></a>
                     </p>
