@@ -11764,6 +11764,16 @@ textarea.form-control {
   transition: all ease 0.5s;
 }
 
+/* Preloader media queries */
+
+@media screen and (max-width: 767px) {
+  .preloader {
+    height: 100vh;
+    max-height: 100vh;
+    padding-bottom: 140px;
+  }
+}
+
 /* Preloader */
 .preloader {
   height: 100vh;
@@ -12120,3 +12130,4 @@ textarea.form-control {
 	justify-content: center;
 	align-items: center;
 }
+
