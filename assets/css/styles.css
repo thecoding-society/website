@@ -11496,7 +11496,7 @@ textarea.form-control {
 .header.components-header {
   max-height: 450px !important;
   height: 450px;
-  dispaly: none;
+  display: none;
   background-position: center -140px;
 }
 
@@ -11762,6 +11762,16 @@ textarea.form-control {
 .content{
   display:none;
   transition: all ease 0.5s;
+}
+
+/* Preloader media queries */
+
+@media screen and (max-width: 767px) {
+  .preloader {
+    height: 100vh;
+    max-height: 100vh;
+    padding-bottom: 140px;
+  }
 }
 
 /* Preloader */
@@ -12120,3 +12130,4 @@ textarea.form-control {
 	justify-content: center;
 	align-items: center;
 }
+
