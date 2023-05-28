@@ -37,7 +37,7 @@ This project is licensed under the [MIT License](LICENSE). Please review the lic
 
 ## Contact
 
-If you have any questions or need assistance, please reach out to The Coding Society team at [email protected]
+If you have any questions or need assistance, please reach out to The Coding Society team at [peccodingsociety@gmail.com](mailto:peccodingsociety@gmail.com)
 
 We appreciate your contributions to make The Coding Society website even better!
 
