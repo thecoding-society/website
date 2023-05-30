@@ -12131,3 +12131,11 @@ textarea.form-control {
 	align-items: center;
 }
 
+.abc{
+ margin-left: 80px;
+}
+
+.links{
+  display: inline-block;
+  padding-right: 10px;
+}
