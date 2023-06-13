@@ -22,6 +22,11 @@ We encourage contributions from members of The Coding Society community. To cont
 
 Please ensure that your contributions align with the goals and guidelines of The Coding Society. Contact the maintainer for the credentials to [ImageKit.io](https://imagekit.io)
 
+## Sizes
+
+Poster: 8.3 x 11.7 in
+
+
 ## Development
 
 The website is built using HTML, CSS, and JavaScript. It is a static website hosted on a web server. To set up the development environment, follow these steps:
