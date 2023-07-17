@@ -11764,6 +11764,10 @@ textarea.form-control {
   transition: all ease 0.5s;
 }
 
+#contact{
+  padding-top: 20px;
+}
+
 /* Preloader media queries */
 
 @media screen and (max-width: 767px) {
@@ -12139,3 +12143,4 @@ textarea.form-control {
   display: inline-block;
   padding-right: 10px;
 }
+
