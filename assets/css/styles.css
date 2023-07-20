@@ -11422,7 +11422,7 @@ textarea.form-control {
   position: relative;
   height: 100vh;
   min-height: 500px;
-  background: url(../imgs/header.jpg) no-repeat center center fixed;
+  background: url(../imgs/header.webp) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
@@ -11762,6 +11762,10 @@ textarea.form-control {
 .content{
   display:none;
   transition: all ease 0.5s;
+}
+
+#contact{
+  padding-top: 20px;
 }
 
 /* Preloader media queries */
@@ -12139,3 +12143,4 @@ textarea.form-control {
   display: inline-block;
   padding-right: 10px;
 }
+
